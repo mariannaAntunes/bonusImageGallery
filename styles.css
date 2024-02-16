@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+}
+img {
+  width: 70vw;
+  height: 90vh;
+}
+.Container {
+  width: 90vw;
+  height: 90vh;
+  text-align: center;         /* every element inside container center aligned */
+  margin: 0 auto 0 auto;      /* the container is itself center aligned */
+}
+.Nav{
+  display: inline-block;
+}
+button {
+  background-color: #ff9933;
+  border: none;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#next{
+  padding: 15px 50px;
+}
+
+#previous{
+  padding: 15px 30px;
+}
